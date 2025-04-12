@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\UserResource\Pages;
+namespace App\Filament\Resources\ChallengeResource\Pages;
 
-use App\Filament\Resources\UserResource;
+use App\Filament\Resources\ChallengeResource;
 use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
 
-class CreateUser extends CreateRecord
+class CreateChallenge extends CreateRecord
 {
-    protected static string $resource = UserResource::class;
+    protected static string $resource = ChallengeResource::class;
 
     protected function getRedirectUrl(): string
     {
